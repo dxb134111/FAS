@@ -783,14 +783,14 @@ function infofas() {
 	echo
 	read -p "请设置数据库地址(默认dxb,禁用phpMyAdmin): " fassqlip
 	if [ -z "$fassqlip" ];then
-	fassqlip=dxb ; echo`;
+	fassqlip=dxb
 	fi
 	echo -e "已设置数据库地址为:\033[32m http://"$IP":"$faspost"/"$fassqlip"\033[0m"
 	
 	echo
 	read -p "请设置数据库密码(默认134111): " fassqlpass
 	if [ -z "$fassqlpass" ];then
-	fassqlpass=134111 ; echo`;
+	fassqlpass=134111
 	fi
 	echo -e "已设置数据库密码为:\033[32m "$fassqlpass"\033[0m"
 	
